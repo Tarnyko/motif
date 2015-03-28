@@ -2184,6 +2184,7 @@ typedef struct _WmGlobalData
     Atom	xa_MWM_MENU;
     Atom	xa_MWM_INFO;
     Atom	xa_MWM_OFFSET;
+    Atom	xa_MWM_CLIENT_LIST;
 
 #if ((!defined(WSM)) || defined(MWM_QATS_PROTOCOL))
     Atom       *xa_WM;
